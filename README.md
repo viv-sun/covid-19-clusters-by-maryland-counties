@@ -2,6 +2,8 @@
 ## Background Information
 The COVID-19 pandemic has resulted in a shortage of PPE, masks, and other sanitary supplies; there has also been a rush to bulk-buy soap, toilet paper, and hand sanitizer, among other things. The United States government has not handled the pandemic properly and the response to the virus has varied by state. I was interested in examining Maryland in particular to conduct a cluster analysis to determine which counties have higher rates of COVID-19 cases and confirmed deaths. By identifying this, I will then be sharing my work with my group mates to address an overarching question: How should Maryland allocate resources (PPE, financial, or otherwise) to the counties hit harder or the hardest by the virus? 
 
+For this project, I examined data from December 4, 2020, which was the most recent date of data available (when I downloaded the dataset). 
+
 ### Business Question 
 Which counties have the most COVID-19 cases and deaths? 
 
@@ -26,3 +28,5 @@ This is the scatter plot for the raw data, created using Plotly Express in Googl
 
 ## Summary
 Just from looking at the scatter plot, it would be reasonable to assume that perhaps there could exist 2 or 3 potential cluster groups. I conducted a cluster analysis and found that all of the data points were sorted into one cluster, despite the fact that I had used three anchors. I tried it again with two anchors, but still yielded a similar cluster result in which all the data points were clustered into one group. 
+
+Moving forward, I would like to examine the earliest date that has data available, as well as a date that is in the middle between the earliest and most recent (12/4/2020) date. Examining their cluster analyses may show a story of how different counties have fared over time in regards to the COVID-19 pandemic.
